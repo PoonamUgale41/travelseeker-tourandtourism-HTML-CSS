@@ -128,7 +128,9 @@ body {
 .booking {
     color: #f8fbff;
 }
-
+.package{
+       color: #f8fbff;
+}
 .travel {
     font-size: 40px;
     font-style: italic;
