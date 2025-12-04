@@ -135,14 +135,7 @@ body {
       background: #00b4d8;
     }
 
-    .btn {
-      background-color: #2993cd;
-      border: none;
-      padding: 10px;
-      cursor: pointer;
-      color: white;
-      border-radius: 4px;
-    }
+    
 
     @media (max-width: 992px) {
       .navbar {
