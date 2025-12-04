@@ -46,7 +46,7 @@ body {
 }
 
 .heading {
-    font-size: 20px;
+    font-size: 30px;
     color: #FFFFFF;
     cursor: pointer;
 }
@@ -112,40 +112,58 @@ body {
 }
 
 .sinup {
-    color: #f8fbff;
-}
+       color: #f8fbff;
+       font-size: 20px;
+       text-decoration: none;
+   }
 
-.login {
-    color: #f8fbff;
-}
+   .login {
+       color: #f8fbff;
+       font-size: 20px;
+       text-decoration: none;
+   }
 
-.contact {
-    color: #f8fbff;
-}
+   .contact {
+       color: #f8fbff;
+       font-size: 20px;
+       text-decoration: none;
+   }
 
-.home {
-    color: #f8fbff;
-}
+   .home {
+       color: #f8fbff;
+       font-size: 20px;
+       text-decoration: none;
+   }
 
-.about {
-    color: #f8fbff;
-}
+   .about {
+       color: #f8fbff;
+       font-size: 20px;
+       text-decoration: none;
+   }
 
-.destination {
-    color: #f8fbff;
-}
+   .destination {
+       color: #f8fbff;
+       font-size: 20px;
+       text-decoration: none;
+   }
 
-.services {
-    color: #f8fbff;
-}
+   .services {
+       color: #f8fbff;
+       font-size: 20px;
+       text-decoration: none;
+   }
 
-.booking {
-    color: #f8fbff;
-}
- 
-.package{
-    color: #FFFFFF;
-}
+   .booking {
+       color: #f8fbff;
+       font-size: 20px;
+       text-decoration: none;
+   }
+
+   .package {
+       color: #f8fbff;
+       font-size: 20px;
+       text-decoration: none;
+   }
 
 
 .container {
