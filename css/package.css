@@ -16,7 +16,7 @@
  }
 
  .navbar-main-container:hover {
-      box-shadow: 0px 9px 8px blue;
+     box-shadow: 0px 9px 8px blue;
  }
 
  .main-logo {
@@ -90,6 +90,7 @@
  }
 
  .package-section {
+    height: 900px;
      background-color: rgb(180, 222, 238);
      border: 1px solid black;
  }
@@ -179,6 +180,33 @@
      transition: 0.3s;
  }
 
+ .button{
+    text-align: center;
+    margin: 40px 0;
+    width: 100%;
+ }
+
+ .book-btn {
+     background-color: orange;
+     color:  white;
+     padding: 12px 28px;
+     border: none;
+     border-radius: 30px;
+     font-size: 18px;
+     font-weight: 600;
+     cursor: pointer;
+     transition: 0.3s ease;
+
+ }
+
+ .book-btn:hover {
+     background-color:  #00B4D8;
+     transform: scale(1.05);
+     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+ }
+
+
+
  .clients-section {
      width: 90%;
      margin: 60px auto;
@@ -241,98 +269,127 @@
  }
 
  .footer {
-     background: #0077B6;
-     padding: 50px 0 20px;
-     font-family: Arial, sans-serif;
- }
+    width: auto;
+    background: #0077B6;
+    color: #ffffff;
+    padding: 40px 30px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
- .footer-container {
-     width: 90%;
-     margin: auto;
-     display: grid;
-     grid-template-columns: 1.3fr 1fr 1fr 1.2fr;
-     gap: 40px;
- }
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1150px;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    width: 22%;
+    margin-bottom: 20px;
+}
+
+.travel-logo {
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+.heading-top {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+    gap: 2px;
+}
 
 
- .logo {
-     font-size: 30px;
-     font-weight: bold;
-     color: #302047;
- }
+.social-icons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    flex-direction: column;
+}
 
- .logo span {
-     color: darkorange;
- }
+.social-logo {
+    border-radius: 50px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 10px;
+}
 
- .footer-about p {
-     margin-top: 12px;
-     line-height: 1.6;
-     color: #302047;
- }
+.social-icons a {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: 0.3s;
+}
 
- .footer-contact h3,
- .footer-address h3,
- .footer-feedback h3 {
-     margin-bottom: 15px;
-     color: #302047;
- }
+.social-icons img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
 
- .footer-contact p,
- .footer-address p {
-     margin-bottom: 8px;
-     color: #302047;
-     font-size: 14px;
- }
+.social-icons a:hover {
+    transform: scale(1.1);
+}
 
- .footer-feedback form {
-     display: flex;
-     flex-direction: column;
- }
+h3 {
+    font-size: 24px;
+}
 
- .footer-feedback input,
- .footer-feedback textarea {
-     padding: 10px;
-     margin-bottom: 12px;
-     border: 1px solid #ccc;
-     border-radius: 6px;
-     font-size: 14px;
- }
+.footer-section h2,
+.footer-section h3 {
+    margin-bottom: 15px;
+    color: #ffffff;
+}
 
- .footer-feedback textarea {
-     height: 80px;
-     resize: none;
- }
+.footer-section p,
+.footer-section li {
+    font-size: 20px;
+    line-height: 1.5;
+}
 
- .footer-feedback button {
-     padding: 10px;
-     background: orange;
-     color: black;
-     border: none;
-     border-radius: 6px;
-     cursor: pointer;
- }
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
 
- .footer-feedback button:hover {
-     background: #00B4D8;
- }
+.footer-section ul li {
+    margin-bottom: 10px;
+}
 
- .footer-bottom {
-     text-align: center;
-     margin-top: 30px;
-     padding: 10px 0;
-     border-top: 1px solid #ddd;
- }
+.footer-section a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: 0.3s;
+}
 
- .footer-bottom p {
-     color: #302047;
-     font-size: 14px;
- }
+.footer-section a:hover {
+    color: #ffffff;
+}
 
- /* Responsive */
- @media (max-width: 768px) {
-     .footer-container {
-         grid-template-columns: 1fr;
-         text-align: center;
-     }
- }
+.footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid #ffffff44;
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+    .footer-col {
+        width: 100%;
+        text-align: center;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
+}
