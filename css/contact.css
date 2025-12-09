@@ -52,9 +52,9 @@ body {
     color: none;
     display: flex;
     gap: 30px;
-    cursor: pointer;
     padding: 15px;
     font-size: 20px;
+    cursor: pointer;
 
 }
 
